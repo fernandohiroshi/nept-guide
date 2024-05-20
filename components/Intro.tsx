@@ -3,7 +3,7 @@ import VideoBox from './VideoBox'
 const Intro = () => {
   return (
     <div>
-      <h1 className="mb-16 text-center text-2xl font-medium md:text-6xl">
+      <h1 className="mb-16 text-center text-2xl font-medium md:text-7xl">
         Next.js com Prettier e Tailwind Sorter Integrados ao ESLint
         <span className="inline-block animate-bounce text-[#c687fd]">.</span>
       </h1>
