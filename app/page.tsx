@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { TbSquareRoundedArrowUpFilled } from 'react-icons/tb'
 
@@ -13,6 +15,7 @@ export default function Home() {
     <main id="home" className="scroll-mt-12">
       <div className="mx-auto mb-16 mt-16 max-w-[800px] px-4">
         <Intro />
+
         <Installations />
         <EslintSection />
         <PrettierSection />
