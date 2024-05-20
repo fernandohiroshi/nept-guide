@@ -8,6 +8,6 @@ In this guide, we present an initial setup aimed at beginners, focusing on the e
 
 ![Preview](./public/preview.png)
 
-[Visit the Live Site](https://nextjs-eslint-prettier-tailwind-config.vercel.app/)
+[Visit the Live Site](https://nept-guide.vercel.app/)
 
 [![](https://skillicons.dev/icons?i=react,next,ts,tailwind)](https://skillicons.dev)
