@@ -6,7 +6,7 @@ import { SiNextdotjs } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <footer className="bg-black/10 tracking-widest shadow-md shadow-white/10 md:mx-4 lg:rounded-full">
+    <footer className="bg-black/10 tracking-widest shadow-md shadow-white/10 md:mx-4 lg:rounded-full" id="contato">
       <div className="mx-auto flex max-w-[800px] flex-col justify-between gap-16 px-8 py-16 md:flex-row">
         <ul className="flex flex-col gap-4 text-xs md:text-sm">
           <h3 className="z-20 text-2xl">Seções</h3>
