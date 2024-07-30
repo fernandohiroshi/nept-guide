@@ -53,7 +53,7 @@ const Footer = () => {
           <li className="z-20 animate-pulse text-2xl underline">
             <Link
               className="duration-300 ease-in-out hover:text-orange-400 "
-              href="https://fernandohiroshi.vercel.app/"
+              href="https://hiroshidev.vercel.app/"
               target="_blank"
             >
               <h3>Talk to me !</h3>
