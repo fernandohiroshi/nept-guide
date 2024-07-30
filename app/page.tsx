@@ -23,7 +23,7 @@ export default function Home() {
       <Footer />
       <ScrollButtons />
       <span className="mt-16 flex justify-center pb-14 text-center text-xs md:pb-4 md:text-sm">
-        © 2024 Fernando Hiroshi Dev. Todos os direitos reservados.
+        © 2024 Fernando Hiroshi Dev. All rights reserved.
       </span>
     </main>
   )

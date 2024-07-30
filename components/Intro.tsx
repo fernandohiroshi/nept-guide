@@ -4,16 +4,15 @@ const Intro = () => {
   return (
     <div>
       <h1 className="mb-16 text-center text-2xl font-medium md:text-7xl">
-        Next.js com Prettier e Tailwind Sorter Integrados ao ESLint
+        Next.js with Prettier and Tailwind Sorter Integrated with ESLint
         <span className="inline-block animate-bounce text-[#c687fd]">.</span>
       </h1>
       <VideoBox />
       <p>
-        Neste guia, apresentamos uma configuração inicial voltada para iniciantes, visando a integração eficiente de
-        Next.js com Prettier, Tailwind Sorter e ESLint. Embora as configurações possam variar de acordo com cada projeto
-        ou empresa, este guia serve como ponto de partida para quem busca otimizar seu fluxo de desenvolvimento
-        front-end. Explore como essas ferramentas podem ser combinadas para melhorar a qualidade do código e aumentar a
-        produtividade.
+        In this guide, we present an initial setup aimed at beginners, focusing on the efficient integration of Next.js
+        with Prettier, Tailwind Sorter, and ESLint. Although configurations may vary depending on each project or
+        company, this guide serves as a starting point for those looking to optimize their front-end development
+        workflow. Explore how these tools can be combined to enhance code quality and boost productivity.
       </p>
     </div>
   )

@@ -1,17 +1,17 @@
 import Code from '../Code'
 import ExtensoesInfo from './extensoes-info'
 import PluginsAndParserInfo from './plugins-parser-info'
-import RegrasInfo from './regras-info'
+import Rules from './rules'
 
 const EslintSection = () => {
   return (
     <>
-      <h2 className="my-8 text-2xl" id="configuracoes-eslint-prettier">
-        • Configurando o arquivo: &quot;eslintrc.json&quot;
+      <h2 className="my-8 text-2xl" id="eslint">
+        • Configuring the file: &quot;eslintrc.json&quot;
       </h2>
       <p className="mb-8">
-        Este código é uma configuração do ESLint, um linter para JavaScript e TypeScript, que ajuda a identificar e
-        corrigir problemas no código.
+        This code is an ESLint configuration, a linter for JavaScript and TypeScript, which helps identify and fix
+        issues in the code.
       </p>
       <Code>
         {`{
@@ -52,7 +52,7 @@ const EslintSection = () => {
       </Code>
       <ExtensoesInfo />
       <PluginsAndParserInfo />
-      <RegrasInfo />
+      <Rules />
     </>
   )
 }

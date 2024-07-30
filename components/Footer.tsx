@@ -9,25 +9,25 @@ const Footer = () => {
     <footer className="bg-black/10 tracking-widest shadow-md shadow-white/10 md:mx-4 lg:rounded-full" id="contato">
       <div className="mx-auto flex max-w-[800px] flex-col justify-between gap-16 px-8 py-16 md:flex-row">
         <ul className="flex flex-col gap-4 text-xs md:text-sm">
-          <h3 className="z-20 text-2xl">Seções</h3>
+          <h3 className="z-20 text-2xl">Sections</h3>
           <li>
-            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#inicio">
-              <span>• Início</span>
+            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#intro">
+              <span>• Introduction</span>
             </Link>
           </li>
           <li>
-            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#instalacao-de-dependencias">
-              <span>• Instalação de Dependências</span>
+            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#packs">
+              <span>• Dependency Installation</span>
             </Link>
           </li>
           <li>
-            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#configuracoes-eslint-prettier">
-              <span>• Configurações do ESLint e Prettier</span>
+            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#eslint">
+              <span>• ESLint and Prettier Configurations</span>
             </Link>
           </li>
           <li>
-            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#scripts-comandos">
-              <span>• Scripts e Comandos</span>
+            <Link className="duration-300 ease-in-out hover:text-orange-400" href="/#scripts">
+              <span>• Scripts and Commands</span>
             </Link>
           </li>
         </ul>
@@ -56,7 +56,7 @@ const Footer = () => {
               href="https://fernandohiroshi.vercel.app/"
               target="_blank"
             >
-              <h3>Fale comigo !</h3>
+              <h3>Talk to me !</h3>
             </Link>
           </li>
         </ul>
